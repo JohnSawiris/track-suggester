@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
   $("#overlay-btn").click(function() { //to hide overlay on click
     $(".overlay").fadeOut(500);
   });//Click overlay-btn end

@@ -23,6 +23,10 @@ button.overlay-btn {
   letter-spacing: 2px;
 }
 /*****CLASSES*****/
+.w-100 {
+  height: 650px;
+  padding: 0 6em;
+}
 .overlay {
   display: none;
   position: absolute;
