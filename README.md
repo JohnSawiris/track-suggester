@@ -2,15 +2,15 @@
 
 #### _It's a website that suggest course tracks for new students, 10.20.2017_
 
-#### Bt _**John Sawiris**_
+#### By _**John Sawiris**_
 
 ## Description
 
-_This website is a website that asks new students a series of of questions about themselves, based on their answers the website provides suggestions_
+_This website asks new students a series of of questions about themselves, based on their answers the website provides suggestions_
 
 ## Setup
 
-* In terminal in the directory of choice run this command git clone https://github.com/JohnSawiris/track-suggester
+* In terminal, in the directory of choice run this command "git clone https://github.com/JohnSawiris/track-suggester"
 ## Known Bugs
 _This website is not responsive_
 
