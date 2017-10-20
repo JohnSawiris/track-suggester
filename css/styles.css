@@ -1,0 +1,35 @@
+/*****GENERAL STYLING*****/
+p {
+ padding: 1em 0.5em 0;
+}
+/*****CLASSES*****/
+.card {
+  margin-top: 2em;
+}
+.row {
+  padding: 1em;
+}
+.spacing {
+  margin-bottom: 0.9em;
+}
+.input {
+  display: block;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.input input {
+  margin-right: 5px;
+  position: absolute;
+  top: 10%;
+}
+span.choice{
+  display: inline-block;
+  font-size: 0.9em;
+  text-align: justify;
+  width: 70%;
+  margin-left: 2em;
+}
+.btn {
+  margin: 20px;
+}

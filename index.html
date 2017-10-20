@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Epicods | Track Suggester</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-ligh bg-light">
+      <h1 class="navbar-brand">Epicodus | Track Suggester</h1>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a href="index.html" class="nav-link">Track Suggester</a>
+        </li>
+        <li class="nav-item active">
+          <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn/" class="nav-link">Take a Peek</a>
+        </li>
+        <li class="nav-item active">
+          <a href="https://www.epicodus.com/what-to-expect/" class="nav-link">What to Expect</a>
+        </li>
+        <li class="nav-item active">
+          <a href="#" class="nav-link">Apply</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="card">
+        <form id="survey-form">
+          <div class="row">
+            <div class="col-md-6 spacing">
+              <p id="q-1">When you face a challenge, what do you think of it?</p>
+              <div class="input">
+                <input type="radio" name="learn" value="1"><span class="choice">I think of it as an opprtunity to learn</span>
+              </div>
+              <div class="input">
+                <input type="radio" name="learn" value="2"><span class="choice">I think of how daunting it's and question myself if this is the career that I want</span>
+              </div>
+            </div>
+            <div class="col-md-6 spacing">
+              <p id="q-2">Do you prefer creating logic or making things look beautiful?</p>
+              <div class="input">
+                <input type="radio" name="beauty-logic" value="1"><span class="choice">Making Things look beautiful</span>
+              </div>
+              <div class="input">
+                <input type="radio" name="beauty-logic" value="2"><span class="choice">Creating Logic and Making Decisions</span>
+              </div>
+            </div>
+            <div class="col-md-4 spacing">
+              <p id="q-3">Do you like creating mobile apps or windows apps?</p>
+              <div class="input">
+                <input type="radio" name="mobile-windows" value="1"><span class="choice">Mobile Applications</span>
+              </div>
+              <div class="input">
+                <input type="radio" name="mobile-windows" value="2"><span class="choice">Windows Applications</span>
+              </div>
+            </div>
+            <div class="col-md-4 spacing">
+              <p id="q-3">Do you like to work solo?</p>
+              <div class="input">
+                <input type="radio" name="work" value="1"><span class="choice">Solo</span>
+              </div>
+              <div class="input">
+                <input type="radio" name="work" value="2"><span class="choice">With a Team</span>
+              </div>
+              <div class="input">
+                <input type="radio" name="work" value="2"><span class="choice">Either way</span>
+              </div>
+            </div>
+            <div class="col-md-4 spacing">
+                <p id="q-3">Do you enjoy solving problems?</p>
+                <div class="input">
+                  <input type="radio" name="yes-no" value="1"><span class="choice">Yes</span>
+                </div>
+                <div class="input">
+                  <input type="radio" name="yes-no" value="2"><span class="choice">No</span>
+                </div>
+            </div>
+          </div>
+          <button type="submit" name="button" class="btn btn-primary" id="btn-submit">Submit Answers</button>
+        </form>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
