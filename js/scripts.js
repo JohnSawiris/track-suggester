@@ -52,7 +52,6 @@ $(document).ready(function() {
       $("#suggestions").css({ //add inline styles to display inline-flex
         opacity:0,
         display: 'inline-flex',
-        margin: '5px'
       }).animate({opacity:1}, 700);
     } else {
       $(".overlay").fadeIn(800);
