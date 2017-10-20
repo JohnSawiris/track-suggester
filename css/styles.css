@@ -3,6 +3,9 @@ p {
  padding: 1em 0.5em 0;
 }
 /*****CLASSES*****/
+.hide {
+    display: none;
+}
 .card {
   margin-top: 2em;
 }
