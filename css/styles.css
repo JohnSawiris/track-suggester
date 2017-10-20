@@ -1,16 +1,51 @@
 /*****GENERAL STYLING*****/
+html {
+  height: 100%;
+}
 body {
+  min-height: 100%;
+  position: relative;
   font-family: 'Raleway', sans-serif;
 }
 p {
  padding: 1em 0.2em 0;
  font-size: 1.8em;
 }
-/*****CLASSES*****/
 ul {
   position: absolute;
   right: 2%;
 }
+button.overlay-btn {
+  display: block;
+  width: 40%;
+  margin: 1.5em auto;
+  padding: 0.5em 1.5em;
+  letter-spacing: 2px;
+}
+/*****CLASSES*****/
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: rgba(0,0,0,0.5);
+}
+.overlay p {
+  background-color: #fff;
+  width: 30%;
+  margin: 0 auto;
+  padding: 3em 3em 1em;
+  font-size: 1em;
+  text-align: center;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
 li.nav-item {
   padding: 10px;
   transition: all 0.5s ease-in-out;
@@ -51,9 +86,9 @@ span.choice{
 .btn {
   margin: 0 1.5em 1.5em;
 }
-.flex-display {
-  display: inline-flex;
-  margin: 5px;
+.col-lg-4 {
+  flex: 0 0 30.3333%;
+  margin: 1%;
 }
 img.suggestion-img {
   display: block;

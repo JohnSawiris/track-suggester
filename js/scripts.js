@@ -1,12 +1,16 @@
 $(document).ready(function() {
+  $("#overlay-btn").click(function() { //to hide overlay on click
+    $(".overlay").fadeOut(500);
+  });//Click overlay-btn end
 
   $("#first-question").submit(function(event) {
     event.preventDefault();
+    //below to check if an option is selected
     if ($("#q-1-input1").is(":checked") || $("#q-1-input2").is(":checked")) {
       $("#first-form").addClass("hide");
       $("#second-form").slideDown(800);;
     } else {
-      alert("Please, select one option");
+      $(".overlay").fadeIn(800); //display an overlay msg
     }
   });//Submit first-form end
 
@@ -16,7 +20,7 @@ $(document).ready(function() {
       $(this).hide();
       $("#third-form").slideDown(800);;
     } else {
-      alert("Please");
+      $(".overlay").fadeIn(800);
     }
   });//Submit second-form end
 
@@ -26,7 +30,7 @@ $(document).ready(function() {
       $(this).hide();
       $("#fourth-form").slideDown(800);;
     } else {
-      alert("third submit");
+      $(".overlay").fadeIn(800);
     }
   });//Submit third-form end
 
@@ -36,7 +40,7 @@ $(document).ready(function() {
       $(this).hide();
       $("#fifth-form").slideDown(800);
     } else {
-      alert("fourth submit");
+      $(".overlay").fadeIn(800);
     }
   });//Submit fourth-form end
 
@@ -44,13 +48,13 @@ $(document).ready(function() {
     event.preventDefault();
     if ($("#q-5-input1").is(":checked") || $("#q-5-input2").is(":checked")) {
       $(this).hide();
-      $("#suggestions").css({
+      $("#suggestions").css({ //add inline styles to display inline-flex
         opacity:0,
         display: 'inline-flex',
         margin: '5px'
       }).animate({opacity:1}, 700);
     } else {
-      alert("fifth");
+      $(".overlay").fadeIn(800);
     }
   });//Submit fifth-form end
 });//Ready end
