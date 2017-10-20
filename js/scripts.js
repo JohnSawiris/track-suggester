@@ -38,5 +38,19 @@ $(document).ready(function() {
     } else {
       alert("fourth submit");
     }
-  });
+  });//Submit fourth-form end
+
+  $("#fifth-form").submit(function(event) {
+    event.preventDefault();
+    if ($("#q-5-input1").is(":checked") || $("#q-5-input2").is(":checked")) {
+      $(this).hide();
+      $("#suggestions").css({
+        opacity:0,
+        display: 'inline-flex',
+        margin: '5px'
+      }).animate({opacity:1}, 700);
+    } else {
+      alert("fifth");
+    }
+  });//Submit fifth-form end
 });//Ready end

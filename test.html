@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <script
 src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -13,6 +14,26 @@ crossorigin="anonymous"></script>
   <title>Epicods | Track Suggester</title>
 </head>
   <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <h1 class="navbar-brand">Epicodus | Track Suggester</h1>
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a href="index.html" class="nav-link">Track Suggester</a>
+        </li>
+        <li class="nav-item active">
+          <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn/" class="nav-link">Take a Peek</a>
+        </li>
+        <li class="nav-item active">
+          <a href="https://www.epicodus.com/what-to-expect/" class="nav-link">What to Expect</a>
+        </li>
+        <li class="nav-item active">
+          <a href="#" class="nav-link">Apply</a>
+        </li>
+      </ul>
+
+    </nav>
+
     <div class="container">
       <div class="card" id="first-form">
         <form id="first-question">
@@ -99,6 +120,22 @@ crossorigin="anonymous"></script>
         </form>
       </div>
 
+      <div class="row hide" id="suggestions">
+        <div class="card col-lg-4">
+          <img src="img/csharp.png" alt="" class="suggestion-img">
+          <p class="suggestions-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="card col-lg-4">
+          <img src="img/ruby.png" alt="" class="suggestion-img">
+          <p class="suggestions-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="card col-lg-4">
+          <img src="img/php.png" alt="" class="suggestion-img">
+          <p class="suggestions-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
 
     </div>
   </body>
